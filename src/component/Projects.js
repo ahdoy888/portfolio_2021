@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Footer(){
+function Projects(){
     return(
         <div>
-            Hello 
+            <h2>Projects</h2>
         </div>
     )
 }
 
-export default Footer;
+export default Projects;
