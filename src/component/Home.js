@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import tech from "../pictures/tech.jpeg";
 
-function Home(){
-    return(
-        <div>
-            <h2>Home</h2>
-        </div>
-    )
+function Home() {
+  return (
+    <div>
+      <img src={tech} />
+    </div>
+  );
 }
 
 export default Home;

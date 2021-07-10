@@ -1,0 +1,25 @@
+li {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: block;
+  text-align: center;
+}
+
+a {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-decoration: none;
+}
+
+.list-item {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+NavLink {
+  text-transform: none;
+}
