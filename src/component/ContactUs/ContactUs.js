@@ -40,7 +40,6 @@ function ContactUs() {
         </p>
         <button>Send Message</button>
       </form>
-      <Footer />
     </>
   );
 }

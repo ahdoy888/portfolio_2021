@@ -1,0 +1,15 @@
+.social-container {
+  padding: 25px;
+  margin: 15px;
+}
+
+span {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: monospace;
+  padding: 0 100px;
+}
+
+.social-icons {
+  padding: 0 50px;
+}
