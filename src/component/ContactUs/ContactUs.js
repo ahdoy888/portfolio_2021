@@ -1,7 +1,7 @@
 import React from "react";
 import emailjs from "emailjs-com";
+import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
 import "./ContactUs.css";
-import Footer from "../Footer/Footer";
 
 function ContactUs() {
   function sendEmail(e) {
@@ -27,19 +27,27 @@ function ContactUs() {
 
   return (
     <>
-      <form class="form" onSubmit={sendEmail}>
-        <h2>CONTACT US</h2>
-        <p type="Name:">
-          <input placeholder="Write your name here.."></input>
-        </p>
-        <p type="Email:">
-          <input placeholder="Let us know how to contact you back.."></input>
-        </p>
-        <p type="Message:">
-          <input placeholder="What would you like to tell us.."></input>
-        </p>
-        <button>Send Message</button>
-      </form>
+      <Form>
+        <form class="form" onSubmit={sendEmail}>
+          <h2>CONTACT US</h2>
+          <FormGroup>
+            <p type="Name:">
+              <Input placeholder="Write your name here.." />
+            </p>
+          </FormGroup>
+          <FormGroup>
+            <p type="Email:">
+              <Input placeholder="Let us know how to contact you back.." />
+            </p>
+          </FormGroup>
+          <FormGroup>
+            <p type="Message:">
+              <Input placeholder="What would you like to tell us.." />
+            </p>
+          </FormGroup>
+          <Button>Send Message</Button>
+        </form>
+      </Form>
     </>
   );
 }

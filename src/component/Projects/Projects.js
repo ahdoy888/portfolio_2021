@@ -7,6 +7,16 @@ import todoHooks from "../../pictures/todoHooks.png";
 const Projects = () => {
   return (
     <>
+      <h3
+        style={{
+          fontSize: "30px",
+          fontFamily: 700,
+          fontFamily: "cursive",
+          textAlign: "center"
+        }}
+      >
+        My Projects
+      </h3>
       <div className="wrapper">
         <article className="col-third">
           <h3 className="title">Donation</h3>

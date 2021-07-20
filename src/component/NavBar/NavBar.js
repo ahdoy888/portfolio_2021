@@ -1,4 +1,5 @@
 import React from "react";
+import { Nav, NavItem } from "reactstrap";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 
@@ -8,22 +9,23 @@ const NavBar = (props) => {
   };
   return (
     <>
-      <nav className="nav-item">
-        <ul className="list-item">
-          <li>
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="/about">About</NavLink>
-          </li>
-          <li>
-            <NavLink to="/projects">Projects</NavLink>
-          </li>
-          <li>
-            <NavLink to="/contact">Contact</NavLink>
-          </li>
-        </ul>
-      </nav>
+      <Nav className="nav-item">
+        <NavItem className="list-item">
+          <NavLink to="/">Home</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to="/about">About</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to="/projects">Projects</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to="/resume">Resume</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to="/contact">Contact</NavLink>
+        </NavItem>
+      </Nav>
     </>
   );
 };

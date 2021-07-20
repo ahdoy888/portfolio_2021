@@ -1,6 +1,6 @@
 .form {
   width: 440px;
-  height: 440px;
+  height: 540px;
   background: #09054796;
   border-radius: 8px;
   box-shadow: 0 0 40px -10px #000;
@@ -58,4 +58,8 @@ button:hover {
 
 input::placeholder {
   color: black;
+}
+
+h2 {
+  margin-left: 50px;
 }
