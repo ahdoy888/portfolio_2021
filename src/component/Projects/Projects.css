@@ -2,14 +2,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -17,9 +10,9 @@
   width: 31%;
 }
 
-.project {
+.project img {
   height: 250px;
-  width: 350px;
+  width: 100%;
 }
 
 .title {
@@ -29,7 +22,7 @@
   margin: 40px 20px;
 }
 
-a {
+.project a {
   margin: 15px 30px;
   padding: 10px 20px;
 }
@@ -37,4 +30,22 @@ a {
 p {
   margin: 25px 30px;
   padding: 10px 20px;
+}
+
+@media (max-width: 760px) {
+  .col-third {
+    width: auto;
+  }
+  .wrapper {
+    flex-direction: column;
+  }
+  .project img {
+    height: 400px;
+  }
+}
+
+@media (max-width: 520px) {
+  .project img {
+    height: 300px;
+  }
 }

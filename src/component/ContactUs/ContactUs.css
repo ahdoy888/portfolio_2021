@@ -63,3 +63,9 @@ input::placeholder {
 h2 {
   margin-left: 50px;
 }
+@media (max-width: 480px) {
+  .form-group p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

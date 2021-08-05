@@ -18,13 +18,9 @@ const Projects = () => {
         My Projects
       </h3>
       <div className="wrapper">
-        <article className="col-third">
+        <article className="col-third project">
           <h3 className="title">Donation</h3>
-          <img
-            className="project"
-            src={donation}
-            alt="Landing screen for Donation Website"
-          />
+          <img src={donation} alt="Landing screen for Donation Website" />
           <div>
             <br />
             <a href="https://github.com/ahdoy888/donation_website">
@@ -33,22 +29,18 @@ const Projects = () => {
             <p>Website using JS, JQuery, HTML/CSS and SASS</p>
           </div>
         </article>
-        <article className="col-third">
+        <article className="col-third project">
           <h3 className="title">TodoList App </h3>
-          <img
-            className="project"
-            src={todoList}
-            alt="Login page for TodoList"
-          />
+          <img src={todoList} alt="Login page for TodoList" />
           <div>
             <br />
             <a href="https://github.com/ahdoy888/React-todoList">Github Link</a>
             <p>React App using class Component</p>
           </div>
         </article>
-        <article className="col-third">
+        <article className="col-third project">
           <h3 className="title">Todo App</h3>
-          <img className="project" src={todoHooks} alt="Todo Apps with Hooks" />
+          <img src={todoHooks} alt="Todo Apps with Hooks" />
           <div>
             <br />
             <a href="https://github.com/ahdoy888/react-todoList-hooks">

@@ -10,7 +10,7 @@ import "../Footer/Footer.css";
 const Footer = () => {
   return (
     <div className="social-container">
-      <span>Social Media Info</span>
+      <span>Social Media</span>
       <a
         href="https://www.facebook.com/jacky.koo.92"
         className="social-icons"

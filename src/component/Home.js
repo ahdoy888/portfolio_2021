@@ -1,18 +1,12 @@
 import React from "react";
 import mac from "../pictures/mac.jpeg";
 import Typical from "react-typical";
+import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   return (
-    <div style={{ position: "relative", textAlign: "center", color: "white" }}>
-      <img src={mac} alt="mac background" style={{ width: "100%" }} />
-      <div
-        style={{
-          position: "absolute",
-          top: "10%",
-          left: "30%"
-        }}
-      >
+    <div className="home-banner">
+      <div className="home-banner-text">
         <h1 style={{ fontSize: "50px", fontFamily: "cursive" }}>
           Hi, I'm Jacky Koo
         </h1>
@@ -22,11 +16,11 @@ function Home() {
             loop={Infinity}
             wrapper="b"
             steps={[
-              " developer",
+              " Developer",
               1500,
-              " husband",
+              " Gambler",
               1500,
-              " animation collector",
+              " Animation Collector",
               1500
             ]}
           />
