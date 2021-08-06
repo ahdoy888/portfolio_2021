@@ -22,32 +22,31 @@ function ContactUs() {
           console.log(error.text);
         }
       );
+
     e.target.reset();
   }
 
   return (
     <>
-      <Form>
-        <form class="form" onSubmit={sendEmail}>
-          <h2>CONTACT US</h2>
-          <FormGroup>
-            <p type="Name:">
-              <Input placeholder="Write your name here.." />
-            </p>
-          </FormGroup>
-          <FormGroup>
-            <p type="Email:">
-              <Input placeholder="Let us know how to contact you back.." />
-            </p>
-          </FormGroup>
-          <FormGroup>
-            <p type="Message:">
-              <Input placeholder="What would you like to tell us.." />
-            </p>
-          </FormGroup>
-          <Button>Send Message</Button>
-        </form>
-      </Form>
+      <form className="form" onSubmit={sendEmail}>
+        <h2>CONTACT US</h2>
+        <FormGroup>
+          <p type="Name:">
+            <Input placeholder="Write your name here.." />
+          </p>
+        </FormGroup>
+        <FormGroup>
+          <p type="Email:">
+            <Input placeholder="Let us know how to contact you back.." />
+          </p>
+        </FormGroup>
+        <FormGroup>
+          <p type="Message:">
+            <Input placeholder="What would you like to tell us.." />
+          </p>
+        </FormGroup>
+        <Button>Send Message</Button>
+      </form>
     </>
   );
 }
