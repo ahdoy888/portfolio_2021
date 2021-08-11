@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio_2021/static/css/main.58333579.chunk.css",
-    "main.js": "/portfolio_2021/static/js/main.23cdbe28.chunk.js",
-    "main.js.map": "/portfolio_2021/static/js/main.23cdbe28.chunk.js.map",
+    "main.js": "/portfolio_2021/static/js/main.85a607d6.chunk.js",
+    "main.js.map": "/portfolio_2021/static/js/main.85a607d6.chunk.js.map",
     "runtime-main.js": "/portfolio_2021/static/js/runtime-main.2c1eb611.js",
     "runtime-main.js.map": "/portfolio_2021/static/js/runtime-main.2c1eb611.js.map",
     "static/css/2.3ab4f688.chunk.css": "/portfolio_2021/static/css/2.3ab4f688.chunk.css",
@@ -14,7 +14,7 @@
     "static/js/2.aaea946f.chunk.js.LICENSE.txt": "/portfolio_2021/static/js/2.aaea946f.chunk.js.LICENSE.txt",
     "static/media/donation.7696dece.png": "/portfolio_2021/static/media/donation.7696dece.png",
     "static/media/headShot.a6b9d4dc.png": "/portfolio_2021/static/media/headShot.a6b9d4dc.png",
-    "static/media/jacky_resume.5e817096.png": "/portfolio_2021/static/media/jacky_resume.5e817096.png",
+    "static/media/jacky_resume.19e62e11.png": "/portfolio_2021/static/media/jacky_resume.19e62e11.png",
     "static/media/App.css": "/portfolio_2021/static/media/mac.13954f98.jpeg",
     "static/media/monsters.9085d4fc.png": "/portfolio_2021/static/media/monsters.9085d4fc.png",
     "static/media/todoHooks.7a3d503b.png": "/portfolio_2021/static/media/todoHooks.7a3d503b.png"
@@ -24,6 +24,6 @@
     "static/css/2.3ab4f688.chunk.css",
     "static/js/2.aaea946f.chunk.js",
     "static/css/main.58333579.chunk.css",
-    "static/js/main.23cdbe28.chunk.js"
+    "static/js/main.85a607d6.chunk.js"
   ]
 }
